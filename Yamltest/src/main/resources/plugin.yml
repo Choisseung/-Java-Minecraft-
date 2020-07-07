@@ -1,0 +1,50 @@
+name: Myplugin
+main: com.minecraft.main
+version: 1.0.0
+author: _b
+depend:
+  - Vault
+  - PlaceholderAPI
+commands:
+  show:
+    description: "这个命令你么得权限"
+    usage: "使用方法:/show[test|stop]"
+    permission: "Myplugin.show"
+    permission-message: "你么得权限"
+
+  ow:
+    description: "你不是ow玩家"
+#    usage: "使用方法:/ow[test|stop]"
+    permission: "Myplugin.ow"
+    permission-message: "你无法被铁拳草飞"
+
+  renqi:
+    description: "你好"
+    usage: "使用方法:/renqi[add|remove]"
+    permission: "Myplugin.renqi"
+    permission-message: "你没有权限"
+
+permissions:
+  renqi.*:
+    description: "人气插件权限集合"
+    children:
+      renqi.up:true
+      renqi.down:true
+      renqi.add:true
+      renqi.remove:true
+      renqi.set:true
+  renqi.up:
+    description:"普通玩家就有这个权限加人气"
+    default:true
+  renqi.down:
+    description:"普通玩家减少人气的权限"
+    default：true
+  renqi.add:
+    description:"管理员权限增加权限"
+    default:op
+  renqi.remove:
+    description:"管理员权限减少人气"
+    default:op
+  renqi.set:
+    description:"管理员权限减少人气"
+    default:op
