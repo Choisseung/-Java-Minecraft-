@@ -37,6 +37,7 @@ public class smelterInventory {
         inventory.setItem(28, itemStack);
         inventory.setItem(29, itemStack);
         inventory.setItem(30, itemStack);
+        inventory.setItem(32, itemStack);
         inventory.setItem(36, itemStack);
         inventory.setItem(37, itemStack);
         inventory.setItem(38, itemStack);
@@ -44,6 +45,7 @@ public class smelterInventory {
         inventory.setItem(34, itemStack);
         inventory.setItem(35, itemStack);
         inventory.setItem(39, itemStack);
+        inventory.setItem(41, itemStack);
         inventory.setItem(42, itemStack);
         inventory.setItem(43, itemStack);
         inventory.setItem(44, itemStack);
@@ -53,17 +55,6 @@ public class smelterInventory {
             inventory.setItem(i,itemStack);
         }
         player.openInventory(inventory);
-
-        ItemStack itemStack3 =new ItemStack(Material.DIAMOND);
-        itemMeta.setDisplayName("§4检查是否为武器/装备");
-        itemStack3.setItemMeta(itemMeta);
-        inventory.setItem(32, itemStack3);
-
-        ItemStack itemStack2 =new ItemStack(Material.DIAMOND);
-        itemMeta.setDisplayName("§4检查是否为强化石");
-        itemStack2.setItemMeta(itemMeta);
-        inventory.setItem(41, itemStack2);
-
         ItemStack itemStack1 =new ItemStack(Material.DIAMOND);
         itemMeta.setDisplayName("§4强化");
         itemStack1.setItemMeta(itemMeta);

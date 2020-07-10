@@ -74,7 +74,7 @@ public class enhance implements CommandExecutor {
                         }
                     }else if (args[0].equalsIgnoreCase("risk")){
                         if (player.hasPermission("enhance.risk")){
-                            //获得超级幸运强化石
+                            //获得厄运运强化石
                             ItemStack itemStack3 = new ItemStack(Material.EMERALD);//青金石块
                             //添加属性描述
                             ItemMeta itemMeta3 = itemStack3.getItemMeta();

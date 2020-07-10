@@ -1,114 +1,114 @@
-id:
-  items:
-    276: 16
-    311: 0
-
-
-chance:
-  #注意：成功几率 = 默认强化几率 + 强化石加成几率；
-  #默认强化几率设置
-  default: 100,97,91,82,70,55,33,10,0,-5,-10
-  normal: 0
-  luck: 20
-  safe: 10
-  vip: 50
-
-
-style:
-  color: "&b&1"
-  a: "◆"
-  b: "◇"
-
-
-items:
-  main_normal:
-    ==: org.bukkit.inventory.ItemStack
-    type: DIAMOND
-    meta:
-      ==: ItemMeta
-      meta-type: UNSPECIFIC
-      display-name: §e普通强化石
-      lore:
-      - §6§l[功能]
-      - §2提升武器攻击力/装备等级
-      - §e提升15%的强化几率
-      - §6§l[用法]
-      - §2放到熔炉，燃烧武器/装备
-  main_luck:
-    ==: org.bukkit.inventory.ItemStack
-    type: DIAMOND
-    meta:
-      ==: ItemMeta
-      meta-type: UNSPECIFIC
-      display-name: §d幸运强化石
-      lore:
-        - §6§l[功能]
-        - §2提升武器攻击力/装备等级
-        - §e提升25%的强化几率
-        - §6§l[用法]
-        - §2放到熔炉，燃烧武器/装备
-  main_superluck:
-    ==: org.bukkit.inventory.ItemStack
-    type: DIAMOND
-    meta:
-      ==: ItemMeta
-      meta-type: UNSPECIFIC
-      display-name: §b超级幸运强化石
-      lore:
-        - §6§l[功能]
-        - §2提升武器攻击力/装备等级
-        - §e提升40%的强化几率
-        - §6§l[用法]
-        - §2放到熔炉，燃烧武器/装备
-  main_risk:
-    ==: org.bukkit.inventory.ItemStack
-    type: DIAMOND
-    meta:
-      ==: ItemMeta
-      meta-type: UNSPECIFIC
-      display-name: §8厄运强化石
-      lore:
-        - §6§l[功能]
-        - §2提升武器攻击力/装备等级
-        - §e提升60%的强化几率
-        - §8有%50的几率武器碎裂
-        - §6§l[用法]
-        - §2放到熔炉，燃烧武器/装备
-  main_safe:
-    ==: org.bukkit.inventory.ItemStack
-    type: DIAMOND
-    meta:
-      ==: ItemMeta
-      meta-type: UNSPECIFIC
-      display-name: §9安全强化石
-      lore:
-        - §6§l[功能]
-        - §4强化失败武器不会碎裂
-        - §e提升40%的强化几率
-        - §6§l[用法]
-        - §2放到熔炉，燃烧武器/装备
-  main_vip:
-    ==: org.bukkit.inventory.ItemStack
-    type: DIAMOND
-    meta:
-      ==: ItemMeta
-      meta-type: UNSPECIFIC
-      display-name: §4vip强化石
-      lore:
-        - §6§l[功能]
-        - §2提升武器攻击力/装备等级
-        - §e超高50%的强化几率
-        - §4vip用户专用","[§6§l用法]
-        - §2放到熔炉，燃烧武器/装备
-  main_admin:
-    ==: org.bukkit.inventory.ItemStack
-    type: DIAMOND
-    meta:
-      ==: ItemMeta
-      meta-type: UNSPECIFIC
-      display-name: §9管理强化石
-      lore:
-        - §6§l[功能]
-        - §9直接强化到最高等级
-        - §6§l[用法]
-        - §2放到熔炉，燃烧武器/装备
+#id:
+#  items:
+#    276: 16
+#    311: 0
+#
+#
+#chance:
+#  #注意：成功几率 = 默认强化几率 + 强化石加成几率；
+#  #默认强化几率设置
+#  default: 100,97,91,82,70,55,33,10,0,-5,-10
+#  normal: 0
+#  luck: 20
+#  safe: 10
+#  vip: 50
+#
+#
+#style:
+#  color: "&b&1"
+#  a: "◆"
+#  b: "◇"
+#
+#
+#items:
+#  main_normal:
+#    ==: org.bukkit.inventory.ItemStack
+#    type: EMERALD
+#    meta:
+#      ==: ItemMeta
+#      meta-type: UNSPECIFIC
+#      display-name: §e普通强化石
+#      lore:
+#      - §6§l[功能]
+#      - §2提升武器攻击力/装备等级
+#      - §e提升15%的强化几率
+#      - §6§l[用法]
+#      - §2放到熔炉，燃烧武器/装备
+#  main_luck:
+#    ==: org.bukkit.inventory.ItemStack
+#    type: EMERALD
+#    meta:
+#      ==: ItemMeta
+#      meta-type: UNSPECIFIC
+#      display-name: §d幸运强化石
+#      lore:
+#        - §6§l[功能]
+#        - §2提升武器攻击力/装备等级
+#        - §e提升25%的强化几率
+#        - §6§l[用法]
+#        - §2放到熔炉，燃烧武器/装备
+#  main_superluck:
+#    ==: org.bukkit.inventory.ItemStack
+#    type: EMERALD
+#    meta:
+#      ==: ItemMeta
+#      meta-type: UNSPECIFIC
+#      display-name: §b超级幸运强化石
+#      lore:
+#        - §6§l[功能]
+#        - §2提升武器攻击力/装备等级
+#        - §e提升40%的强化几率
+#        - §6§l[用法]
+#        - §2放到熔炉，燃烧武器/装备
+#  main_risk:
+#    ==: org.bukkit.inventory.ItemStack
+#    type: EMERALD
+#    meta:
+#      ==: ItemMeta
+#      meta-type: UNSPECIFIC
+#      display-name: §8厄运强化石
+#      lore:
+#        - §6§l[功能]
+#        - §2提升武器攻击力/装备等级
+#        - §e提升60%的强化几率
+#        - §8有%50的几率武器碎裂
+#        - §6§l[用法]
+#        - §2放到熔炉，燃烧武器/装备
+#  main_safe:
+#    ==: org.bukkit.inventory.ItemStack
+#    type: EMERALD
+#    meta:
+#      ==: ItemMeta
+#      meta-type: UNSPECIFIC
+#      display-name: §9安全强化石
+#      lore:
+#        - §6§l[功能]
+#        - §4强化失败武器不会碎裂
+#        - §e提升40%的强化几率
+#        - §6§l[用法]
+#        - §2放到熔炉，燃烧武器/装备
+#  main_vip:
+#    ==: org.bukkit.inventory.ItemStack
+#    type: EMERALD
+#    meta:
+#      ==: ItemMeta
+#      meta-type: UNSPECIFIC
+#      display-name: §4vip强化石
+#      lore:
+#        - §6§l[功能]
+#        - §2提升武器攻击力/装备等级
+#        - §e超高50%的强化几率
+#        - §4vip用户专用","[§6§l用法]
+#        - §2放到熔炉，燃烧武器/装备
+#  main_admin:
+#    ==: org.bukkit.inventory.ItemStack
+#    type: EMERALD
+#    meta:
+#      ==: ItemMeta
+#      meta-type: UNSPECIFIC
+#      display-name: §9管理强化石
+#      lore:
+#        - §6§l[功能]
+#        - §9直接强化到最高等级
+#        - §6§l[用法]
+#        - §2放到熔炉，燃烧武器/装备
