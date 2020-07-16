@@ -1,0 +1,71 @@
+package com.minecraft.command;
+
+
+import com.connorlinfoot.titleapi.TitleAPI;
+import com.minecraft.gui.smelterInventory;
+//import com.minecraft.vexview.IntensifyGui;
+import lk.vexview.api.VexViewAPI;
+import org.bukkit.Material;
+import org.bukkit.World;
+import org.bukkit.command.Command;
+import org.bukkit.command.CommandExecutor;
+import org.bukkit.command.CommandSender;
+import org.bukkit.entity.*;
+import org.bukkit.inventory.ItemStack;
+import org.bukkit.inventory.meta.ItemMeta;
+
+import java.util.Arrays;
+
+
+public class getSmelter implements CommandExecutor {
+    @Override
+    public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
+        if (sender instanceof Player){
+            Player player = (Player) sender;
+
+            if (!player.hasPermission("Weaponplugin.smelter")){
+                return true;
+            }
+            if (label.equalsIgnoreCase("smelter")){
+
+                if (args[0].equalsIgnoreCase("get")){
+                    if (player.hasPermission("smelter.get")){
+
+//                        VexViewAPI.openGui(player, IntensifyGui.enhanceGui(player.getUniqueId()));
+//                        player.sendMessage("成功打开Gui");
+//                        TitleAPI.sendTitle(player, 5, 4, 5, "恭喜打开Gui");
+
+                        smelterInventory.SmelterGui(player);
+//
+                        ItemStack itemStack5 = new ItemStack(Material.IRON_SWORD);
+                        player.getInventory().addItem(itemStack5);//加进背包
+                        ItemStack itemStack = new ItemStack(Material.DIAMOND_AXE);
+                        player.getInventory().addItem(itemStack);//加进背包
+                        ItemStack itemStack2 = new ItemStack(Material.GOLD_SWORD);
+                        player.getInventory().addItem(itemStack2);//加进背包
+
+                        ItemStack itemStack1 = new ItemStack(Material.WOOD_AXE);
+                        player.getInventory().addItem(itemStack1);//加进背包
+
+                        ItemStack itemStack4 = new ItemStack(Material.STONE_SWORD);
+                        player.getInventory().addItem(itemStack4);//加进背包
+//
+//                        World world = player.getWorld();
+//                        Pig pig = (Pig) world.spawnEntity(player.getLocation(), EntityType.PIG);
+//
+//                        World world1 = player.getWorld();
+//                        Cow cow = (Cow) world1.spawnEntity(player.getLocation(), EntityType.COW);
+//
+//                        World world2 = player.getWorld();
+//                        Spider spider = (Spider) world2.spawnEntity(player.getLocation(), EntityType.SPIDER);
+
+
+                    }
+                }
+            }
+        }else {
+            sender.sendMessage("你不是玩家");
+        }
+        return true;
+    }
+}
