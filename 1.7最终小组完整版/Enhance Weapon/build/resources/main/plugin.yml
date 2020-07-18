@@ -1,0 +1,68 @@
+name: Weaponplugin
+main: com.minecraft.main
+version: 1.0.0
+author: _b
+depend:
+  - Vault
+  - PlaceholderAPI
+commands:
+  enhance:
+    description: "获得强化石命令的使用方法:/enhance <类型> <数量> -§e获得一个强化石"
+    usage: "使用方法:/enhance <类型> <数量> -§e获得一个强化石"
+    permission: "Weaponplugin.enhance"
+    permission-message: "你无法获得强化石"
+
+
+  smelter:
+    description: "获取强化熔炉命令的使用方法:/smelter get -§e获得强化熔炉"
+    usage: ""
+    permission: "Weaponplugin.smelter"
+    permission-message: "你无法获得熔炉"
+
+  reload:
+    description: "？"
+    usage: ""
+    permission: "Weaponplugin.reload"
+    permission-message: "你没有此权限"
+
+permissions:
+  enhance.*:
+    description:  "各种强化石集合"
+    children:
+      enhance.normal: true
+      enhance.luck: true
+      enhance.superluck: true
+      enhance.safe: true
+      enhance.risk: true
+      enhance.vip: true
+      enhance.admin: true
+  enhance.normal:
+      description: "普通玩家就有这个权限获得普通强化石"
+      default: true
+  enhance.luck:
+      description: "普通玩家就有这个权限获得幸运强化石"
+      default: true
+  enhance.superluck:
+      description: "普通玩家就有这个权限获得超级幸运强化石"
+      default: true
+  enhance.safe:
+        description: "普通玩家就有这个权限获得安全强化石"
+        default: true
+  enhance.risk:
+      description: "普通玩家就有这个权限获得风险强化石"
+      default: true
+  enhance.vip:
+        description: "VIP玩家就有这个权限获得vip强化石"
+        default: op
+  enhance.admin:
+      description: "管理员玩家就有这个权限获得管理强化石"
+      default: op
+  smelter.*:
+    description: "获的强化熔炉"
+    smelter.get: true
+  smelter.get:
+    description: "普通玩家可通过此权限获得熔炉"
+    default: true
+
+
+

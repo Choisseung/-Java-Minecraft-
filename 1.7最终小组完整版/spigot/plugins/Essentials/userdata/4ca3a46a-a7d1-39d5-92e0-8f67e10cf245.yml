@@ -1,0 +1,20 @@
+lastAccountName: Unicorn
+timestamps:
+  login: 1594908722235
+  lastteleport: 1594909774099
+  logout: 1594909811146
+ipAddress: 127.0.0.1
+lastlocation:
+  world: world_nether
+  x: 207.5
+  y: 72.0
+  z: 108.5
+  yaw: 312.79175
+  pitch: 32.555325
+logoutlocation:
+  world: world_nether
+  x: 207.5
+  y: 72.0
+  z: 108.5
+  yaw: 312.79175
+  pitch: 32.555325

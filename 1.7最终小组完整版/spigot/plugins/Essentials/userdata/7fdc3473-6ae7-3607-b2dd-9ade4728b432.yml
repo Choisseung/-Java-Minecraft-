@@ -1,0 +1,21 @@
+lastAccountName: _b
+timestamps:
+  login: 1595064042073
+  logout: 1595064114834
+  lastteleport: 1594909788675
+ipAddress: 127.0.0.1
+money: '1651.0'
+lastlocation:
+  world: world_nether
+  x: 143.94760236660792
+  y: 83.86843429667813
+  z: 8.379764479452957
+  yaw: -321.15436
+  pitch: 27.300007
+logoutlocation:
+  world: world
+  x: 463.1586674962684
+  y: 65.0
+  z: 261.6949649523102
+  yaw: 220.2
+  pitch: 17.999966

@@ -1,0 +1,208 @@
+[11:38:33] [Server thread/INFO]: Starting minecraft server version 1.12.2
+[11:38:33] [Server thread/INFO]: Loading properties
+[11:38:33] [Server thread/INFO]: Default game type: SURVIVAL
+[11:38:34] [Server thread/INFO]: This server is running CraftBukkit version git-Spigot-dcd1643-e60fc34 (MC: 1.12.2) (Implementing API version 1.12.2-R0.1-SNAPSHOT)
+[11:38:34] [Server thread/INFO]: Debug logging is disabled
+[11:38:34] [Server thread/INFO]: Using 4 threads for Netty based IO
+[11:38:34] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[11:38:34] [Server thread/INFO]: Generating keypair
+[11:38:34] [Server thread/INFO]: Starting Minecraft server on *:25565
+[11:38:34] [Server thread/INFO]: Using default channel type
+[11:38:36] [Server thread/INFO]: Set PluginClassLoader as parallel capable
+[11:38:36] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.1.26
+[11:38:36] [Server thread/INFO]: [Vault] Loading Vault v1.7.2-b107
+[11:38:36] [Server thread/INFO]: [Myplugin] Loading Myplugin v1.0.0
+[11:38:36] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.1.26
+[11:38:36] [Server thread/INFO]: [0;36;1m       [0;36;22m __    [m
+[11:38:36] [Server thread/INFO]: [0;36;1m  |    [0;36;22m|__)   [0;32;22mLuckPerms [0;36;1mv5.1.26[m
+[11:38:36] [Server thread/INFO]: [0;36;1m  |___ [0;36;22m|      [0;30;1mRunning on Bukkit - CraftBukkit[m
+[11:38:36] [Server thread/INFO]: [m
+[11:38:36] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[11:38:38] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[11:38:39] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[11:38:39] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[11:38:39] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 2735ms)
+[11:38:39] [Server thread/INFO]: [Vault] Enabling Vault v1.7.2-b107
+[11:38:39] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[11:38:39] [Server thread/INFO]: [Vault] Enabled Version 1.7.2-b107
+[11:38:39] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[11:38:39] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[11:38:39] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[11:38:39] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[11:38:39] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[11:38:39] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[11:38:39] [Server thread/INFO]: Preparing level "world"
+[11:38:39] [Server thread/INFO]: -------- World Settings For [world] --------
+[11:38:39] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[11:38:39] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[11:38:39] [Server thread/INFO]: View Distance: 10
+[11:38:39] [Server thread/INFO]: Item Despawn Rate: 6000
+[11:38:39] [Server thread/INFO]: Item Merge Radius: 2.5
+[11:38:39] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[11:38:39] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[11:38:39] [Server thread/INFO]: Mob Spawn Range: 4
+[11:38:39] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[11:38:39] [Server thread/INFO]: Random Lighting Updates: false
+[11:38:39] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[11:38:39] [Server thread/INFO]: Max TNT Explosions: 100
+[11:38:39] [Server thread/INFO]: Structure Info Saving: true
+[11:38:39] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[11:38:39] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[11:38:39] [Server thread/INFO]: Cane Growth Modifier: 100%
+[11:38:39] [Server thread/INFO]: Melon Growth Modifier: 100%
+[11:38:39] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[11:38:39] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[11:38:39] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[11:38:39] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[11:38:39] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[11:38:39] [Server thread/INFO]: Vine Growth Modifier: 100%
+[11:38:39] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[11:38:39] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[11:38:39] [Server thread/INFO]: Experience Merge Radius: 3.0
+[11:38:39] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[11:38:39] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[11:38:39] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[11:38:39] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[11:38:39] [Server thread/INFO]: View Distance: 10
+[11:38:39] [Server thread/INFO]: Item Despawn Rate: 6000
+[11:38:39] [Server thread/INFO]: Item Merge Radius: 2.5
+[11:38:39] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[11:38:39] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[11:38:39] [Server thread/INFO]: Mob Spawn Range: 4
+[11:38:39] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[11:38:39] [Server thread/INFO]: Random Lighting Updates: false
+[11:38:39] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[11:38:39] [Server thread/INFO]: Max TNT Explosions: 100
+[11:38:39] [Server thread/INFO]: Structure Info Saving: true
+[11:38:39] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[11:38:39] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[11:38:39] [Server thread/INFO]: Cane Growth Modifier: 100%
+[11:38:39] [Server thread/INFO]: Melon Growth Modifier: 100%
+[11:38:39] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[11:38:39] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[11:38:39] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[11:38:39] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[11:38:39] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[11:38:39] [Server thread/INFO]: Vine Growth Modifier: 100%
+[11:38:39] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[11:38:39] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[11:38:39] [Server thread/INFO]: Experience Merge Radius: 3.0
+[11:38:39] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[11:38:40] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[11:38:40] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[11:38:40] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[11:38:40] [Server thread/INFO]: View Distance: 10
+[11:38:40] [Server thread/INFO]: Item Despawn Rate: 6000
+[11:38:40] [Server thread/INFO]: Item Merge Radius: 2.5
+[11:38:40] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[11:38:40] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[11:38:40] [Server thread/INFO]: Mob Spawn Range: 4
+[11:38:40] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[11:38:40] [Server thread/INFO]: Random Lighting Updates: false
+[11:38:40] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[11:38:40] [Server thread/INFO]: Max TNT Explosions: 100
+[11:38:40] [Server thread/INFO]: Structure Info Saving: true
+[11:38:40] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[11:38:40] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[11:38:40] [Server thread/INFO]: Cane Growth Modifier: 100%
+[11:38:40] [Server thread/INFO]: Melon Growth Modifier: 100%
+[11:38:40] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[11:38:40] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[11:38:40] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[11:38:40] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[11:38:40] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[11:38:40] [Server thread/INFO]: Vine Growth Modifier: 100%
+[11:38:40] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[11:38:40] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[11:38:40] [Server thread/INFO]: Experience Merge Radius: 3.0
+[11:38:40] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[11:38:40] [Server thread/INFO]: Preparing start region for level 0 (Seed: -2943681322513394657)
+[11:38:41] [Server thread/INFO]: Preparing spawn area: 46%
+[11:38:41] [Server thread/INFO]: Preparing start region for level 1 (Seed: -2943681322513394657)
+[11:38:42] [Server thread/INFO]: Preparing start region for level 2 (Seed: -2943681322513394657)
+[11:38:42] [Server thread/ERROR]: Permission node 'renqi.*' in plugin description file for Myplugin v1.0.0 is invalid
+java.lang.IllegalArgumentException: 'children' key is of wrong type
+	at org.bukkit.permissions.Permission.loadPermission(Permission.java:310) ~[spigot-1.12.2.jar:git-Spigot-dcd1643-e60fc34]
+	at org.bukkit.permissions.Permission.loadPermissions(Permission.java:233) [spigot-1.12.2.jar:git-Spigot-dcd1643-e60fc34]
+	at org.bukkit.plugin.PluginDescriptionFile.getPermissions(PluginDescriptionFile.java:771) [spigot-1.12.2.jar:git-Spigot-dcd1643-e60fc34]
+	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugin(CraftServer.java:370) [spigot-1.12.2.jar:git-Spigot-dcd1643-e60fc34]
+	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugins(CraftServer.java:330) [spigot-1.12.2.jar:git-Spigot-dcd1643-e60fc34]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.t(MinecraftServer.java:422) [spigot-1.12.2.jar:git-Spigot-dcd1643-e60fc34]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.l(MinecraftServer.java:383) [spigot-1.12.2.jar:git-Spigot-dcd1643-e60fc34]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.a(MinecraftServer.java:338) [spigot-1.12.2.jar:git-Spigot-dcd1643-e60fc34]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:272) [spigot-1.12.2.jar:git-Spigot-dcd1643-e60fc34]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:545) [spigot-1.12.2.jar:git-Spigot-dcd1643-e60fc34]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_191]
+[11:38:42] [Server thread/ERROR]: Permission node 'renqi.up' in plugin description file for Myplugin v1.0.0 is invalid
+java.lang.ClassCastException: java.lang.String cannot be cast to java.util.Map
+	at org.bukkit.permissions.Permission.loadPermissions(Permission.java:233) [spigot-1.12.2.jar:git-Spigot-dcd1643-e60fc34]
+	at org.bukkit.plugin.PluginDescriptionFile.getPermissions(PluginDescriptionFile.java:771) [spigot-1.12.2.jar:git-Spigot-dcd1643-e60fc34]
+	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugin(CraftServer.java:370) [spigot-1.12.2.jar:git-Spigot-dcd1643-e60fc34]
+	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugins(CraftServer.java:330) [spigot-1.12.2.jar:git-Spigot-dcd1643-e60fc34]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.t(MinecraftServer.java:422) [spigot-1.12.2.jar:git-Spigot-dcd1643-e60fc34]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.l(MinecraftServer.java:383) [spigot-1.12.2.jar:git-Spigot-dcd1643-e60fc34]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.a(MinecraftServer.java:338) [spigot-1.12.2.jar:git-Spigot-dcd1643-e60fc34]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:272) [spigot-1.12.2.jar:git-Spigot-dcd1643-e60fc34]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:545) [spigot-1.12.2.jar:git-Spigot-dcd1643-e60fc34]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_191]
+[11:38:42] [Server thread/ERROR]: Permission node 'renqi.down' in plugin description file for Myplugin v1.0.0 is invalid
+java.lang.ClassCastException: java.lang.String cannot be cast to java.util.Map
+	at org.bukkit.permissions.Permission.loadPermissions(Permission.java:233) [spigot-1.12.2.jar:git-Spigot-dcd1643-e60fc34]
+	at org.bukkit.plugin.PluginDescriptionFile.getPermissions(PluginDescriptionFile.java:771) [spigot-1.12.2.jar:git-Spigot-dcd1643-e60fc34]
+	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugin(CraftServer.java:370) [spigot-1.12.2.jar:git-Spigot-dcd1643-e60fc34]
+	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugins(CraftServer.java:330) [spigot-1.12.2.jar:git-Spigot-dcd1643-e60fc34]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.t(MinecraftServer.java:422) [spigot-1.12.2.jar:git-Spigot-dcd1643-e60fc34]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.l(MinecraftServer.java:383) [spigot-1.12.2.jar:git-Spigot-dcd1643-e60fc34]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.a(MinecraftServer.java:338) [spigot-1.12.2.jar:git-Spigot-dcd1643-e60fc34]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:272) [spigot-1.12.2.jar:git-Spigot-dcd1643-e60fc34]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:545) [spigot-1.12.2.jar:git-Spigot-dcd1643-e60fc34]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_191]
+[11:38:42] [Server thread/ERROR]: Permission node 'renqi.add' in plugin description file for Myplugin v1.0.0 is invalid
+java.lang.ClassCastException: java.lang.String cannot be cast to java.util.Map
+	at org.bukkit.permissions.Permission.loadPermissions(Permission.java:233) [spigot-1.12.2.jar:git-Spigot-dcd1643-e60fc34]
+	at org.bukkit.plugin.PluginDescriptionFile.getPermissions(PluginDescriptionFile.java:771) [spigot-1.12.2.jar:git-Spigot-dcd1643-e60fc34]
+	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugin(CraftServer.java:370) [spigot-1.12.2.jar:git-Spigot-dcd1643-e60fc34]
+	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugins(CraftServer.java:330) [spigot-1.12.2.jar:git-Spigot-dcd1643-e60fc34]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.t(MinecraftServer.java:422) [spigot-1.12.2.jar:git-Spigot-dcd1643-e60fc34]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.l(MinecraftServer.java:383) [spigot-1.12.2.jar:git-Spigot-dcd1643-e60fc34]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.a(MinecraftServer.java:338) [spigot-1.12.2.jar:git-Spigot-dcd1643-e60fc34]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:272) [spigot-1.12.2.jar:git-Spigot-dcd1643-e60fc34]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:545) [spigot-1.12.2.jar:git-Spigot-dcd1643-e60fc34]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_191]
+[11:38:42] [Server thread/ERROR]: Permission node 'renqi.remove' in plugin description file for Myplugin v1.0.0 is invalid
+java.lang.ClassCastException: java.lang.String cannot be cast to java.util.Map
+	at org.bukkit.permissions.Permission.loadPermissions(Permission.java:233) [spigot-1.12.2.jar:git-Spigot-dcd1643-e60fc34]
+	at org.bukkit.plugin.PluginDescriptionFile.getPermissions(PluginDescriptionFile.java:771) [spigot-1.12.2.jar:git-Spigot-dcd1643-e60fc34]
+	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugin(CraftServer.java:370) [spigot-1.12.2.jar:git-Spigot-dcd1643-e60fc34]
+	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugins(CraftServer.java:330) [spigot-1.12.2.jar:git-Spigot-dcd1643-e60fc34]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.t(MinecraftServer.java:422) [spigot-1.12.2.jar:git-Spigot-dcd1643-e60fc34]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.l(MinecraftServer.java:383) [spigot-1.12.2.jar:git-Spigot-dcd1643-e60fc34]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.a(MinecraftServer.java:338) [spigot-1.12.2.jar:git-Spigot-dcd1643-e60fc34]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:272) [spigot-1.12.2.jar:git-Spigot-dcd1643-e60fc34]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:545) [spigot-1.12.2.jar:git-Spigot-dcd1643-e60fc34]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_191]
+[11:38:42] [Server thread/INFO]: [Myplugin] Enabling Myplugin v1.0.0
+[11:38:42] [Server thread/INFO]: [Myplugin] _____________
+[11:38:42] [Server thread/INFO]: [Myplugin] MineCraft²å¼þ
+[11:38:42] [Server thread/INFO]: [Myplugin] _____________
+[11:38:42] [Server thread/INFO]: ÎÒµÄµÚÒ»¸ö²å¼þ¿ªÊ¼
+[11:38:42] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[11:38:42] [Server thread/INFO]: Done (2.940s)! For help, type "help" or "?"
+[11:38:42] [Craft Scheduler Thread - 4/INFO]: [Vault] Checking for Updates ... 
+[11:39:01] [Craft Scheduler Thread - 4/INFO]: [Vault] There was an issue attempting to check for the latest version.
+[11:39:01] [Craft Scheduler Thread - 4/INFO]: [Vault] No new version available
+[11:39:53] [User Authenticator #1/INFO]: UUID of player _b is 7fdc3473-6ae7-3607-b2dd-9ade4728b432
+[11:39:53] [Server thread/INFO]: _b[/127.0.0.1:58018] logged in with entity id 195 at ([world]164.23722668707526, 66.0, 150.5356193270715)
+[11:40:11] [Server thread/INFO]: _b issued server command: /RenQi.up
+[11:40:29] [Server thread/INFO]: _b issued server command: /ow
+[11:40:29] [Server thread/INFO]: [Myplugin] ow-----[]
+[11:40:33] [Server thread/INFO]: _b issued server command: /RenQi.up
+[11:40:41] [Server thread/INFO]: _b issued server command: /renqi
+[11:41:03] [Server thread/INFO]: _b issued server command: /renqi
+[11:41:28] [Server thread/INFO]: _b issued server command: /RenQi
+[11:41:39] [Server thread/INFO]: _b issued server command: /up
+[11:41:50] [Server thread/INFO]: _b issued server command: /RenQi
+[11:42:15] [Server thread/INFO]: _b issued server command: /RenQi.up
+[11:42:18] [Server thread/INFO]: _b issued server command: /help
+[11:44:13] [Server thread/INFO]: _b lost connection: Disconnected
+[11:44:13] [Server thread/INFO]: _b left the game

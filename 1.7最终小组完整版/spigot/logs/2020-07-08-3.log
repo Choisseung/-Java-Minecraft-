@@ -1,0 +1,178 @@
+[00:15:44] [Server thread/INFO]: Starting minecraft server version 1.12.2
+[00:15:44] [Server thread/WARN]: To start the server with more ram, launch it as "java -Xmx1024M -Xms1024M -jar minecraft_server.jar"
+[00:15:44] [Server thread/INFO]: Loading properties
+[00:15:44] [Server console handler/ERROR]: Exception handling console input
+java.io.IOException: 句柄无效。
+	at java.io.FileInputStream.readBytes(Native Method) ~[?:1.8.0_181]
+	at java.io.FileInputStream.read(Unknown Source) ~[?:1.8.0_181]
+	at java.io.BufferedInputStream.fill(Unknown Source) ~[?:1.8.0_181]
+	at java.io.BufferedInputStream.read(Unknown Source) ~[?:1.8.0_181]
+	at org.bukkit.craftbukkit.libs.jline.internal.NonBlockingInputStream.read(NonBlockingInputStream.java:248) ~[spigot-1.12.2.jar:git-Spigot-dcd1643-e60fc34]
+	at org.bukkit.craftbukkit.libs.jline.internal.InputStreamReader.read(InputStreamReader.java:261) ~[spigot-1.12.2.jar:git-Spigot-dcd1643-e60fc34]
+	at org.bukkit.craftbukkit.libs.jline.internal.InputStreamReader.read(InputStreamReader.java:198) ~[spigot-1.12.2.jar:git-Spigot-dcd1643-e60fc34]
+	at org.bukkit.craftbukkit.libs.jline.console.ConsoleReader.readCharacter(ConsoleReader.java:2145) ~[spigot-1.12.2.jar:git-Spigot-dcd1643-e60fc34]
+	at org.bukkit.craftbukkit.libs.jline.console.ConsoleReader.readLineSimple(ConsoleReader.java:3183) ~[spigot-1.12.2.jar:git-Spigot-dcd1643-e60fc34]
+	at org.bukkit.craftbukkit.libs.jline.console.ConsoleReader.readLine(ConsoleReader.java:2333) ~[spigot-1.12.2.jar:git-Spigot-dcd1643-e60fc34]
+	at org.bukkit.craftbukkit.libs.jline.console.ConsoleReader.readLine(ConsoleReader.java:2269) ~[spigot-1.12.2.jar:git-Spigot-dcd1643-e60fc34]
+	at org.bukkit.craftbukkit.libs.jline.console.ConsoleReader.readLine(ConsoleReader.java:2257) ~[spigot-1.12.2.jar:git-Spigot-dcd1643-e60fc34]
+	at net.minecraft.server.v1_12_R1.DedicatedServer$2.run(DedicatedServer.java:87) [spigot-1.12.2.jar:git-Spigot-dcd1643-e60fc34]
+[00:15:44] [Server thread/INFO]: Default game type: SURVIVAL
+[00:15:44] [Server thread/INFO]: This server is running CraftBukkit version git-Spigot-dcd1643-e60fc34 (MC: 1.12.2) (Implementing API version 1.12.2-R0.1-SNAPSHOT)
+[00:15:44] [Server thread/INFO]: Using 4 threads for Netty based IO
+[00:15:44] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[00:15:44] [Server thread/INFO]: Debug logging is disabled
+[00:15:44] [Server thread/INFO]: Generating keypair
+[00:15:44] [Server thread/INFO]: Starting Minecraft server on *:25565
+[00:15:44] [Server thread/INFO]: Using default channel type
+[00:15:50] [Server thread/INFO]: Starting minecraft server version 1.12.2
+[[00:15:50] [Server thread/INFO]: [LuckPerms] Loading[00:15:50] [Server t[00:15:50] [Server thread/INFO]: [TitleAPI[00:15:50] [Server thread/INFO]: This server is running CraftBukkit version git-Spigot-dcd1643-e60fc34 (MC: 1.12.2) (Implementing API version 1.12.2-R0.1-SNAPSHOT)
+[00:15:50] [Server thread/INFO]: Debug logging is disabled
+[00:15:50] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[00:15:50] [Server thread/INFO]: Using 4 threads for Netty based IO
+[00:15:50] [Server thread/INFO]: Generating keypair
+[00:15:50] [Server thread/INFO]: Starting Minecraft server on *:25565
+[00:15:50] [Server thread/INFO]: Using default channel type
+[00:15:55] [Server thread/WARN]: **** FAILED TO BIND TO PORT!
+[00:15:55] [Server thread/WARN]: The exception was: java.net.BindException: Address already in use: bind
+[00:15:55] [Server thread/WARN]: Perhaps a server is already running on that port?
+[00:15:55] [Server thread/INFO]: Stopping server
+[00:15:55] [Server thread/INFO]: Saving players
+...
+[00:15:54] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 4481ms)
+[00:15:54] [Server thread/INFO]: [Vault] Enabling Vault v1.7.2-b107
+[00:15:54] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[00:15:54] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[00:15:54] [Server thread/INFO]: [Vault] Enabled Version 1.7.2-b107
+[00:15:54] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[00:15:54] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[00:15:54] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[00:15:54] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[00:15:54] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[00:15:54] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[00:15:54] [Server thread/INFO]: Preparing level "world"
+[00:15:54] [Server thread/INFO]: -------- World Settings For [world] --------
+[00:15:54] [Server thread/INFO]: Item Despawn Rate: 6000
+[00:15:54] [Server thread/INFO]: Item Merge Radius: 2.5
+[00:15:54] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[00:15:54] [Server thread/INFO]: View Distance: 10
+[00:15:54] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[00:15:54] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[00:15:54] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[00:15:54] [Server thread/INFO]: Experience Merge Radius: 3.0
+[00:15:54] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[00:15:54] [Server thread/INFO]: Mob Spawn Range: 4
+[00:15:54] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[00:15:54] [Server thread/INFO]: Structure Info Saving: true
+[00:15:54] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[00:15:54] [Server thread/INFO]: Random Lighting Updates: false
+[00:15:54] [Server thread/INFO]: Max TNT Explosions: 100
+[00:15:54] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[00:15:54] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[00:15:54] [Server thread/INFO]: Cane Growth Modifier: 100%
+[00:15:54] [Server thread/INFO]: Melon Growth Modifier: 100%
+[00:15:54] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[00:15:54] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[00:15:54] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[00:15:54] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[00:15:54] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[00:15:54] [Server thread/INFO]: Vine Growth Modifier: 100%
+[00:15:54] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[00:15:54] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[00:15:55] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[00:15:55] [Server thread/INFO]: Item Despawn Rate: 6000
+[00:15:55] [Server thread/INFO]: Item Merge Radius: 2.5
+[00:15:55] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[00:15:55] [Server thread/INFO]: View Distance: 10
+[00:15:55] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[00:15:55] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[00:15:55] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[00:15:55] [Server thread/INFO]: Experience Merge Radius: 3.0
+[00:15:55] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[00:15:55] [Server thread/INFO]: Mob Spawn Range: 4
+[00:15:55] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[00:15:55] [Server thread/INFO]: Structure Info Saving: true
+[00:15:55] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[00:15:55] [Server thread/INFO]: Random Lighting Updates: false
+[00:15:55] [Server thread/INFO]: Max TNT Explosions: 100
+[00:15:55] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[00:15:55] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[00:15:55] [Server thread/INFO]: Cane Growth Modifier: 100%
+[00:15:55] [Server thread/INFO]: Melon Growth Modifier: 100%
+[00:15:55] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[00:15:55] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[00:15:55] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[00:15:55] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[00:15:55] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[00:15:55] [Server thread/INFO]: Vine Growth Modifier: 100%
+[00:15:55] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[00:15:55] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[00:15:55] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[00:15:55] [Server thread/INFO]: Item Despawn Rate: 6000
+[00:15:55] [Server thread/INFO]: Item Merge Radius: 2.5
+[00:15:55] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[00:15:55] [Server thread/INFO]: View Distance: 10
+[00:15:55] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[00:15:55] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[00:15:55] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[00:15:55] [Server thread/INFO]: Experience Merge Radius: 3.0
+[00:15:55] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[00:15:55] [Server thread/INFO]: Mob Spawn Range: 4
+[00:15:55] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[00:15:55] [Server thread/INFO]: Structure Info Saving: true
+[00:15:55] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[00:15:55] [Server thread/INFO]: Random Lighting Updates: false
+[00:15:55] [Server thread/INFO]: Max TNT Explosions: 100
+[00:15:55] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[00:15:55] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[00:15:55] [Server thread/INFO]: Cane Growth Modifier: 100%
+[00:15:55] [Server thread/INFO]: Melon Growth Modifier: 100%
+[00:15:55] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[00:15:55] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[00:15:55] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[00:15:55] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[00:15:55] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[00:15:55] [Server thread/INFO]: Vine Growth Modifier: 100%
+[00:15:55] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[00:15:55] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[00:15:55] [Server thread/INFO]: Preparing start region for level 0 (Seed: -2943681322513394657)
+[00:15:56] [Server thread/INFO]: Preparing spawn area: 13%
+[00:15:57] [Server thread/INFO]: Preparing spawn area: 60%
+[00:15:58] [Server thread/INFO]: Preparing start region for level 1 (Seed: -2943681322513394657)
+[00:15:59] [Server thread/INFO]: Preparing spawn area: 34%
+[00:16:00] [Server thread/INFO]: Preparing spawn area: 78%
+[00:16:00] [Server thread/INFO]: Preparing start region for level 2 (Seed: -2943681322513394657)
+[00:16:01] [Server thread/INFO]: [TitleAPI] Enabling TitleAPI v1.7.7
+[00:16:01] [Server thread/INFO]: TitleAPI V1.7.7 has been enabled!
+[00:16:01] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.10.3
+[00:16:01] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[00:16:01] [Server thread/INFO]: [Essentials] Enabling Essentials v2.17.2.147
+[00:16:01] [Server thread/INFO]: Attempting to convert old kits in config.yml to new kits.yml
+[00:16:01] [Server thread/INFO]: No kits found to migrate.
+[00:16:01] [Server thread/INFO]: Loaded 852 items from items.csv.
+[00:16:01] [Server thread/INFO]: Using locale zh_CN
+[00:16:01] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[00:16:01] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[00:16:01] [Server thread/INFO]: [Vault] [Vault][Economy] Essentials Economy hooked.
+[00:16:01] [Server thread/INFO]: [Essentials] Using Vault based permissions (LuckPerms)
+[00:16:01] [Server thread/INFO]: [Myplugin] Enabling Myplugin v1.0.0
+[00:16:01] [Server thread/INFO]: [Myplugin] 初始化vault插件成功
+[00:16:01] [Server thread/INFO]: [Myplugin] _____________
+[00:16:01] [Server thread/INFO]: [Myplugin] MineCraft插件
+[00:16:01] [Server thread/INFO]: [Myplugin] _____________
+[00:16:01] [Server thread/INFO]: 强化武器插件启动
+[00:16:01] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[00:16:02] [Server thread/INFO]: Done (7.241s)! For help, type "help" or "?"
+[00:16:02] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[00:16:02] [Craft Scheduler Thread - 3/INFO]: [Vault] Checking for Updates ... 
+[00:16:05] [User Authenticator #1/INFO]: UUID of player _b is 7fdc3473-6ae7-3607-b2dd-9ade4728b432
+[00:16:06] [Server thread/INFO]: _b[/127.0.0.1:51119] logged in with entity id 189 at ([world]-5.037513657865519, 75.71491141332494, -4.8437411999624285)
+[00:16:06] [Server thread/WARN]: [Essentials] Permissions lag notice with (LuckPermsHandler). Response took 57.477900ms. Summary: Getting group for _b
+[00:16:06] [Craft Scheduler Thread - 2/INFO]: [PlaceholderAPI] 175 placeholder expansions are available on the cloud.
+[00:16:11] [Craft Scheduler Thread - 3/INFO]: [Vault] There was an issue attempting to check for the latest version.
+[00:16:11] [Craft Scheduler Thread - 3/INFO]: [Vault] No new version available
+[00:16:18] [Server thread/INFO]: _b issued server command: /enhance normal
+[00:16:27] [Craft Scheduler Thread - 1/INFO]: [PlaceholderAPI] Failed to check for updates on spigot.
+[00:16:29] [Server thread/INFO]: _b issued server command: /enhance af
+[00:16:37] [Server thread/INFO]: _b issued server command: /enhance superluck
+[00:16:44] [Server thread/INFO]: _b lost connection: Internal Exception: java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+[00:16:44] [Server thread/INFO]: _b left the game

@@ -1,0 +1,321 @@
+[13:05:30] [Server thread/INFO]: Starting minecraft server version 1.12.2
+[13:05:30] [Server thread/INFO]: Loading properties
+[13:05:30] [Server thread/INFO]: Default game type: SURVIVAL
+[13:05:30] [Server thread/INFO]: This server is running CraftBukkit version git-Spigot-dcd1643-e60fc34 (MC: 1.12.2) (Implementing API version 1.12.2-R0.1-SNAPSHOT)
+[13:05:30] [Server thread/INFO]: Debug logging is disabled
+[13:05:30] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[13:05:30] [Server thread/INFO]: Using 4 threads for Netty based IO
+[13:05:31] [Server thread/INFO]: Generating keypair
+[13:05:31] [Server thread/INFO]: Starting Minecraft server on *:25565
+[13:05:31] [Server thread/INFO]: Using default channel type
+[13:05:33] [Server thread/INFO]: Set PluginClassLoader as parallel capable
+[13:05:33] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.1.26
+[13:05:33] [Server thread/INFO]: [TitleAPI] Loading TitleAPI v1.7.7
+[13:05:33] [Server thread/INFO]: [Vault] Loading Vault v1.7.2-b107
+[13:05:33] [Server thread/INFO]: [PlaceholderAPI] Loading PlaceholderAPI v2.10.3
+[13:05:33] [Server thread/INFO]: [ProtocolLib] Loading ProtocolLib v4.5.0
+[13:05:33] [Server thread/INFO]: [Weaponplugin] Loading Weaponplugin v1.0.0
+[13:05:33] [Server thread/INFO]: [Essentials] Loading Essentials v2.17.2.147
+[13:05:33] [Server thread/INFO]: [VexView] Loading VexView v2.7.0
+[13:05:33] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.1.26
+[13:05:33] [Server thread/INFO]: [0;36;1m       [0;36;22m __    [m
+[13:05:33] [Server thread/INFO]: [0;36;1m  |    [0;36;22m|__)   [0;32;22mLuckPerms [0;36;1mv5.1.26[m
+[13:05:33] [Server thread/INFO]: [0;36;1m  |___ [0;36;22m|      [0;30;1mRunning on Bukkit - CraftBukkit[m
+[13:05:33] [Server thread/INFO]: [m
+[13:05:33] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[13:05:34] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[13:05:35] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[13:05:35] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[13:05:35] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 2028ms)
+[13:05:35] [Server thread/INFO]: [Vault] Enabling Vault v1.7.2-b107
+[13:05:35] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[13:05:35] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[13:05:35] [Server thread/INFO]: [Vault] Enabled Version 1.7.2-b107
+[13:05:35] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[13:05:35] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v4.5.0
+[13:05:35] [Server thread/INFO]: [ProtocolLib] Started structure compiler thread.
+[13:05:35] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[13:05:35] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[13:05:35] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[13:05:35] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[13:05:35] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[13:05:35] [Server thread/INFO]: Preparing level "world"
+[13:05:35] [Server thread/INFO]: -------- World Settings For [world] --------
+[13:05:35] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[13:05:35] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[13:05:35] [Server thread/INFO]: Item Merge Radius: 2.5
+[13:05:35] [Server thread/INFO]: Item Despawn Rate: 6000
+[13:05:35] [Server thread/INFO]: View Distance: 10
+[13:05:35] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[13:05:35] [Server thread/INFO]: Mob Spawn Range: 4
+[13:05:35] [Server thread/INFO]: Structure Info Saving: true
+[13:05:35] [Server thread/INFO]: Random Lighting Updates: false
+[13:05:35] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[13:05:35] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[13:05:35] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[13:05:35] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[13:05:35] [Server thread/INFO]: Cane Growth Modifier: 100%
+[13:05:35] [Server thread/INFO]: Melon Growth Modifier: 100%
+[13:05:35] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[13:05:35] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[13:05:35] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[13:05:35] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[13:05:35] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[13:05:35] [Server thread/INFO]: Vine Growth Modifier: 100%
+[13:05:35] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[13:05:35] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[13:05:35] [Server thread/INFO]: Max TNT Explosions: 100
+[13:05:35] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[13:05:35] [Server thread/INFO]: Experience Merge Radius: 3.0
+[13:05:35] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[13:05:36] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[13:05:36] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[13:05:36] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[13:05:36] [Server thread/INFO]: Item Merge Radius: 2.5
+[13:05:36] [Server thread/INFO]: Item Despawn Rate: 6000
+[13:05:36] [Server thread/INFO]: View Distance: 10
+[13:05:36] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[13:05:36] [Server thread/INFO]: Mob Spawn Range: 4
+[13:05:36] [Server thread/INFO]: Structure Info Saving: true
+[13:05:36] [Server thread/INFO]: Random Lighting Updates: false
+[13:05:36] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[13:05:36] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[13:05:36] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[13:05:36] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[13:05:36] [Server thread/INFO]: Cane Growth Modifier: 100%
+[13:05:36] [Server thread/INFO]: Melon Growth Modifier: 100%
+[13:05:36] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[13:05:36] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[13:05:36] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[13:05:36] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[13:05:36] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[13:05:36] [Server thread/INFO]: Vine Growth Modifier: 100%
+[13:05:36] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[13:05:36] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[13:05:36] [Server thread/INFO]: Max TNT Explosions: 100
+[13:05:36] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[13:05:36] [Server thread/INFO]: Experience Merge Radius: 3.0
+[13:05:36] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[13:05:36] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[13:05:36] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[13:05:36] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[13:05:36] [Server thread/INFO]: Item Merge Radius: 2.5
+[13:05:36] [Server thread/INFO]: Item Despawn Rate: 6000
+[13:05:36] [Server thread/INFO]: View Distance: 10
+[13:05:36] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[13:05:36] [Server thread/INFO]: Mob Spawn Range: 4
+[13:05:36] [Server thread/INFO]: Structure Info Saving: true
+[13:05:36] [Server thread/INFO]: Random Lighting Updates: false
+[13:05:36] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[13:05:36] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[13:05:36] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[13:05:36] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[13:05:36] [Server thread/INFO]: Cane Growth Modifier: 100%
+[13:05:36] [Server thread/INFO]: Melon Growth Modifier: 100%
+[13:05:36] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[13:05:36] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[13:05:36] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[13:05:36] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[13:05:36] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[13:05:36] [Server thread/INFO]: Vine Growth Modifier: 100%
+[13:05:36] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[13:05:36] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[13:05:36] [Server thread/INFO]: Max TNT Explosions: 100
+[13:05:36] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[13:05:36] [Server thread/INFO]: Experience Merge Radius: 3.0
+[13:05:36] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[13:05:36] [Server thread/INFO]: Preparing start region for level 0 (Seed: -2943681322513394657)
+[13:05:37] [Server thread/INFO]: Preparing spawn area: 47%
+[13:05:37] [Server thread/INFO]: Preparing start region for level 1 (Seed: -2943681322513394657)
+[13:05:38] [Server thread/INFO]: Preparing start region for level 2 (Seed: -2943681322513394657)
+[13:05:38] [Server thread/INFO]: [TitleAPI] Enabling TitleAPI v1.7.7
+[13:05:38] [Server thread/INFO]: [0;36;1mTitleAPI V1.7.7 has been enabled![m
+[13:05:38] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.10.3
+[13:05:38] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[13:05:38] [Server thread/INFO]: [Weaponplugin] Enabling Weaponplugin v1.0.0
+[13:05:38] [Server thread/INFO]: [Weaponplugin] ³õÊ¼»¯vault²å¼ş³É¹¦
+[13:05:38] [Server thread/INFO]: [Weaponplugin] _____________
+[13:05:38] [Server thread/INFO]: [Weaponplugin] MineCraft²å¼ş
+[13:05:38] [Server thread/INFO]: [Weaponplugin] _____________
+[13:05:38] [Server thread/INFO]: [Weaponplugin] Ç¿»¯ÎäÆ÷²å¼şÒÑÆô¶¯
+[13:05:38] [Server thread/INFO]: [Weaponplugin] Èç¹ûÓĞBug£¬Çë»ã±¨¸ø_b!
+[13:05:38] [Server thread/INFO]: [Essentials] Enabling Essentials v2.17.2.147
+[13:05:38] [Server thread/INFO]: Attempting to convert old kits in config.yml to new kits.yml
+[13:05:38] [Server thread/INFO]: No kits found to migrate.
+[13:05:38] [Server thread/INFO]: Loaded 852 items from items.csv.
+[13:05:38] [Server thread/INFO]: Using locale zh_CN
+[13:05:38] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[13:05:38] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[13:05:38] [Server thread/INFO]: [Vault] [Vault][Economy] Essentials Economy hooked.
+[13:05:38] [Server thread/INFO]: [Essentials] Using Vault based permissions (LuckPerms)
+[13:05:38] [Server thread/INFO]: [VexView] Enabling VexView v2.7.0
+[13:05:38] [Server thread/INFO]: [0;32;1m======== [0;33;22mVexView > ¿ªÊ¼Æô¶¯ [0;32;1m========[m
+[13:05:38] [Server thread/INFO]: [0;32;1m>[0;36;1m »¶Ó­Ê¹ÓÃVexView£¡[m
+[13:05:38] [Server thread/INFO]: [0;32;1m> ÒÑ½«ÄúµÄÓïÑÔÉèÖÃÎª£º[0;37;1mÖĞ¹ú [0;33;1m(zh_CN)[m
+[13:05:38] [Server thread/INFO]: [0;32;1m> µ±Ç°·şÎñÆ÷°æ±¾£º [0;37;1m1.12.2 [0;32;1m(ÒÑ¼æÈİ)[m
+[13:05:38] [Server thread/INFO]: [0;32;1m> [0;36;1m¸ÃÓÎÏ·°æ±¾ÒÑ¿ª·ÅÊ¹ÓÃµÄ¹¦ÄÜ£º[m
+[13:05:38] [Server thread/INFO]:  [0;32;1m©Ç [0;37;1mGUI»ù´¡¹¦ÄÜ [0;32;1m¡Ì[m
+[13:05:38] [Server thread/INFO]:  [0;32;1m©Ç [0;37;1mTAG»ù´¡¹¦ÄÜ [0;32;1m¡Ì[m
+[13:05:38] [Server thread/INFO]:  [0;32;1m©Ç [0;37;1mVexViewStoreÉÌµê [0;32;1m¡Ì[m
+[13:05:38] [Server thread/INFO]:  [0;32;1m©Ç [0;37;1mGUI¸ß¼¶¹¦ÄÜ£¨ÎïÆ·²Û£© [0;32;1m¡Ì[m
+[13:05:38] [Server thread/INFO]:  [0;32;1m©Ç [0;37;1m×Ô¶¨ÒåÒ©Ë®Ğ§¹û [0;32;1m¡Ì[m
+[13:05:38] [Server thread/INFO]:  [0;32;1m©Ç [0;37;1m¸ß¼¶ÌØĞ§ [0;32;1m¡Ì[m
+[13:05:38] [Server thread/INFO]:  [0;32;1m©Ç [0;37;1m¸ß¼¶ÎïÆ·ÌáÊ¾¿ò [0;32;1m¡Ì[m
+[13:05:38] [Server thread/INFO]:  [0;32;1m©Ç [0;37;1m×Ô¶¨ÒåÓÎÏ·²Ëµ¥ [0;32;1m¡Ì[m
+[13:05:38] [Server thread/INFO]:  [0;32;1m©» [0;37;1mÆäËû¹¦ÄÜ [0;32;1m¡Ì[m
+[13:05:38] [Server thread/INFO]: [0;37;22m> ¼ì²âµ½Î´ÆôÓÃÊı¾İ¿â[m
+[13:05:38] [Server thread/INFO]: [0;32;1m> PlaceholderAPI ²å¼ş³É¹¦¼æÈİ£¡[m
+[13:05:39] [Server thread/INFO]: [0;32;1m> [0;37;1mÒÑÍê³ÉVexView²å¼şÈ«²¿¹¦ÄÜÔØÈë£¡[m
+[13:05:39] [Server thread/INFO]: [0;32;1m> ×÷Õß [0;37;1mLK520 [0;32;1m|[mlona [0;32;1m°æ±¾: [0;37;1m2.7.0[m
+[13:05:39] [Server thread/INFO]: [0;32;1m======== [0;33;22mVexView > Æô¶¯Íê³É [0;32;1m========[m
+[13:05:39] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[13:05:39] [Server thread/INFO]: Done (3.303s)! For help, type "help" or "?"
+[13:05:39] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[13:05:39] [Craft Scheduler Thread - 6/INFO]: [Vault] Checking for Updates ... 
+[13:05:41] [Craft Scheduler Thread - 2/INFO]: [PlaceholderAPI] 175 placeholder expansions are available on the cloud.
+[13:05:42] [Craft Scheduler Thread - 0/WARN]: java.net.ConnectException: Connection refused: connect
+[13:05:42] [Craft Scheduler Thread - 0/WARN]: 	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+[13:05:42] [Craft Scheduler Thread - 0/WARN]: 	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+[13:05:42] [Craft Scheduler Thread - 0/WARN]: 	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+[13:05:42] [Craft Scheduler Thread - 0/WARN]: 	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+[13:05:42] [Craft Scheduler Thread - 0/WARN]: 	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+[13:05:42] [Craft Scheduler Thread - 0/WARN]: 	at java.net.PlainSocketImpl.connect(Unknown Source)
+[13:05:42] [Craft Scheduler Thread - 0/WARN]: 	at java.net.SocksSocketImpl.connect(Unknown Source)
+[13:05:42] [Craft Scheduler Thread - 0/WARN]: 	at java.net.Socket.connect(Unknown Source)
+[13:05:42] [Craft Scheduler Thread - 0/WARN]: 	at java.net.Socket.connect(Unknown Source)
+[13:05:42] [Craft Scheduler Thread - 0/WARN]: 	at sun.net.NetworkClient.doConnect(Unknown Source)
+[13:05:42] [Craft Scheduler Thread - 0/WARN]: 	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+[13:05:42] [Craft Scheduler Thread - 0/WARN]: 	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+[13:05:42] [Craft Scheduler Thread - 0/WARN]: 	at sun.net.www.http.HttpClient.<init>(Unknown Source)
+[13:05:42] [Craft Scheduler Thread - 0/WARN]: 	at sun.net.www.http.HttpClient.New(Unknown Source)
+[13:05:42] [Craft Scheduler Thread - 0/WARN]: 	at sun.net.www.http.HttpClient.New(Unknown Source)
+[13:05:42] [Craft Scheduler Thread - 0/WARN]: 	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(Unknown Source)
+[13:05:42] [Craft Scheduler Thread - 0/WARN]: 	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(Unknown Source)
+[13:05:42] [Craft Scheduler Thread - 0/WARN]: 	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source)
+[13:05:42] [Craft Scheduler Thread - 0/WARN]: 	at sun.net.www.protocol.http.HttpURLConnection.connect(Unknown Source)
+[13:05:42] [Craft Scheduler Thread - 0/WARN]: 	at sun.net.www.protocol.http.HttpURLConnection.getOutputStream0(Unknown Source)
+[13:05:42] [Craft Scheduler Thread - 0/WARN]: 	at sun.net.www.protocol.http.HttpURLConnection.getOutputStream(Unknown Source)
+[13:05:42] [Craft Scheduler Thread - 0/WARN]: 	at com.connorlinfoot.titleapi.CLUpdate.doCurl(CLUpdate.java:92)
+[13:05:42] [Craft Scheduler Thread - 0/WARN]: 	at com.connorlinfoot.titleapi.CLUpdate.doCheck(CLUpdate.java:49)
+[13:05:42] [Craft Scheduler Thread - 0/WARN]: 	at com.connorlinfoot.titleapi.CLUpdate.access$000(CLUpdate.java:20)
+[13:05:42] [Craft Scheduler Thread - 0/WARN]: 	at com.connorlinfoot.titleapi.CLUpdate$1.run(CLUpdate.java:40)
+[13:05:42] [Craft Scheduler Thread - 0/WARN]: 	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:76)
+[13:05:42] [Craft Scheduler Thread - 0/WARN]: 	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52)
+[13:05:42] [Craft Scheduler Thread - 0/WARN]: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[13:05:42] [Craft Scheduler Thread - 0/WARN]: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[13:05:42] [Craft Scheduler Thread - 0/WARN]: 	at java.lang.Thread.run(Unknown Source)
+[13:05:42] [Craft Scheduler Thread - 0/WARN]: [TitleAPI] Plugin TitleAPI v1.7.7 generated an exception while executing task 9
+java.lang.NullPointerException: null
+	at java.io.StringReader.<init>(Unknown Source) ~[?:1.8.0_191]
+	at org.json.simple.parser.JSONParser.parse(JSONParser.java:79) ~[spigot-1.12.2.jar:git-Spigot-dcd1643-e60fc34]
+	at org.json.simple.parser.JSONParser.parse(JSONParser.java:75) ~[spigot-1.12.2.jar:git-Spigot-dcd1643-e60fc34]
+	at com.connorlinfoot.titleapi.CLUpdate.doCheck(CLUpdate.java:55) ~[?:?]
+	at com.connorlinfoot.titleapi.CLUpdate.access$000(CLUpdate.java:20) ~[?:?]
+	at com.connorlinfoot.titleapi.CLUpdate$1.run(CLUpdate.java:40) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:76) ~[spigot-1.12.2.jar:git-Spigot-dcd1643-e60fc34]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [spigot-1.12.2.jar:git-Spigot-dcd1643-e60fc34]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_191]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_191]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_191]
+[13:05:42] [Server thread/INFO]: [PlaceholderAPI] An update for PlaceholderAPI (v2.10.6) is available at:
+[13:05:42] [Server thread/INFO]: [PlaceholderAPI] https://www.spigotmc.org/resources/placeholderapi.6245/
+[13:05:43] [User Authenticator #1/INFO]: UUID of player _b is 7fdc3473-6ae7-3607-b2dd-9ade4728b432
+[13:05:44] [Server thread/INFO]: _b[/127.0.0.1:50527] logged in with entity id 191 at ([world]0.0, 100.0, 0.0)
+[13:05:44] [Server thread/WARN]: [Essentials] Permissions lag notice with (LuckPermsHandler). Response took 37.005001ms. Summary: Getting group for _b
+[13:05:53] [Craft Scheduler Thread - 6/INFO]: [Vault] No new version available
+[13:05:54] [Server thread/INFO]: _b issued server command: /smelter get
+[13:05:56] [Server thread/INFO]: [Weaponplugin] 73
+[13:05:56] [Server thread/INFO]: [Weaponplugin] ItemStack{EMERALD x 1, UNSPECIFIC_META:{meta-type=UNSPECIFIC, display-name=¡ìeÆÕÍ¨Ç¿»¯Ê¯, lore=[[¡ì6¡ìl¹¦ÄÜ], ¡ì2ÌáÉıÎäÆ÷¹¥»÷Á¦/×°±¸µÈ¼¶, ¡ìeÌáÉı15%µÄÇ¿»¯¼¸ÂÊ, [¡ì6¡ìlÓÃ·¨], ¡ì2·Åµ½ÈÛÂ¯£¬È¼ÉÕÎäÆ÷/×°±¸]}}
+[13:05:59] [Server thread/INFO]: [Weaponplugin] 31
+[13:05:59] [Server thread/INFO]: [Weaponplugin] ItemStack{AIR x 0}
+[13:06:01] [Server thread/INFO]: [Weaponplugin] 31
+[13:06:01] [Server thread/INFO]: [Weaponplugin] ItemStack{EMERALD x 1, UNSPECIFIC_META:{meta-type=UNSPECIFIC, display-name=¡ìeÆÕÍ¨Ç¿»¯Ê¯, lore=[[¡ì6¡ìl¹¦ÄÜ], ¡ì2ÌáÉıÎäÆ÷¹¥»÷Á¦/×°±¸µÈ¼¶, ¡ìeÌáÉı15%µÄÇ¿»¯¼¸ÂÊ, [¡ì6¡ìlÓÃ·¨], ¡ì2·Åµ½ÈÛÂ¯£¬È¼ÉÕÎäÆ÷/×°±¸]}}
+[13:06:01] [Server thread/INFO]: [Weaponplugin] 31
+[13:06:01] [Server thread/INFO]: [Weaponplugin] ItemStack{AIR x 0}
+[13:06:02] [Server thread/INFO]: [Weaponplugin] 31
+[13:06:02] [Server thread/INFO]: [Weaponplugin] ItemStack{EMERALD x 1, UNSPECIFIC_META:{meta-type=UNSPECIFIC, display-name=¡ìeÆÕÍ¨Ç¿»¯Ê¯, lore=[[¡ì6¡ìl¹¦ÄÜ], ¡ì2ÌáÉıÎäÆ÷¹¥»÷Á¦/×°±¸µÈ¼¶, ¡ìeÌáÉı15%µÄÇ¿»¯¼¸ÂÊ, [¡ì6¡ìlÓÃ·¨], ¡ì2·Åµ½ÈÛÂ¯£¬È¼ÉÕÎäÆ÷/×°±¸]}}
+[13:06:03] [Server thread/INFO]: [Weaponplugin] 64
+[13:06:03] [Server thread/INFO]: [Weaponplugin] ItemStack{AIR x 0}
+[13:06:04] [Server thread/INFO]: [Weaponplugin] 64
+[13:06:04] [Server thread/INFO]: [Weaponplugin] ItemStack{EMERALD x 1, UNSPECIFIC_META:{meta-type=UNSPECIFIC, display-name=¡ìeÆÕÍ¨Ç¿»¯Ê¯, lore=[[¡ì6¡ìl¹¦ÄÜ], ¡ì2ÌáÉıÎäÆ÷¹¥»÷Á¦/×°±¸µÈ¼¶, ¡ìeÌáÉı15%µÄÇ¿»¯¼¸ÂÊ, [¡ì6¡ìlÓÃ·¨], ¡ì2·Åµ½ÈÛÂ¯£¬È¼ÉÕÎäÆ÷/×°±¸]}}
+[13:06:05] [Server thread/INFO]: [Weaponplugin] 64
+[13:06:05] [Server thread/INFO]: [Weaponplugin] ItemStack{AIR x 0}
+[13:06:05] [Server thread/INFO]: [Weaponplugin] 64
+[13:06:05] [Server thread/INFO]: [Weaponplugin] ItemStack{EMERALD x 1, UNSPECIFIC_META:{meta-type=UNSPECIFIC, display-name=¡ìeÆÕÍ¨Ç¿»¯Ê¯, lore=[[¡ì6¡ìl¹¦ÄÜ], ¡ì2ÌáÉıÎäÆ÷¹¥»÷Á¦/×°±¸µÈ¼¶, ¡ìeÌáÉı15%µÄÇ¿»¯¼¸ÂÊ, [¡ì6¡ìlÓÃ·¨], ¡ì2·Åµ½ÈÛÂ¯£¬È¼ÉÕÎäÆ÷/×°±¸]}}
+[13:06:05] [Server thread/INFO]: [Weaponplugin] 64
+[13:06:05] [Server thread/INFO]: [Weaponplugin] ItemStack{AIR x 0}
+[13:06:05] [Server thread/INFO]: [Weaponplugin] 64
+[13:06:05] [Server thread/INFO]: [Weaponplugin] ItemStack{AIR x 0}
+[13:06:06] [Server thread/INFO]: [Weaponplugin] 64
+[13:06:06] [Server thread/INFO]: [Weaponplugin] ItemStack{EMERALD x 2, UNSPECIFIC_META:{meta-type=UNSPECIFIC, display-name=¡ìeÆÕÍ¨Ç¿»¯Ê¯, lore=[[¡ì6¡ìl¹¦ÄÜ], ¡ì2ÌáÉıÎäÆ÷¹¥»÷Á¦/×°±¸µÈ¼¶, ¡ìeÌáÉı15%µÄÇ¿»¯¼¸ÂÊ, [¡ì6¡ìlÓÃ·¨], ¡ì2·Åµ½ÈÛÂ¯£¬È¼ÉÕÎäÆ÷/×°±¸]}}
+[13:06:06] [Server thread/INFO]: [Weaponplugin] 64
+[13:06:06] [Server thread/INFO]: [Weaponplugin] ItemStack{AIR x 0}
+[13:06:07] [Server thread/INFO]: [Weaponplugin] 64
+[13:06:07] [Server thread/INFO]: [Weaponplugin] ItemStack{EMERALD x 2, UNSPECIFIC_META:{meta-type=UNSPECIFIC, display-name=¡ìeÆÕÍ¨Ç¿»¯Ê¯, lore=[[¡ì6¡ìl¹¦ÄÜ], ¡ì2ÌáÉıÎäÆ÷¹¥»÷Á¦/×°±¸µÈ¼¶, ¡ìeÌáÉı15%µÄÇ¿»¯¼¸ÂÊ, [¡ì6¡ìlÓÃ·¨], ¡ì2·Åµ½ÈÛÂ¯£¬È¼ÉÕÎäÆ÷/×°±¸]}}
+[13:06:08] [Server thread/INFO]: [Weaponplugin] 64
+[13:06:08] [Server thread/INFO]: [Weaponplugin] ItemStack{AIR x 0}
+[13:06:10] [Server thread/INFO]: [Weaponplugin] 64
+[13:06:10] [Server thread/INFO]: [Weaponplugin] ItemStack{EMERALD x 2, UNSPECIFIC_META:{meta-type=UNSPECIFIC, display-name=¡ìeÆÕÍ¨Ç¿»¯Ê¯, lore=[[¡ì6¡ìl¹¦ÄÜ], ¡ì2ÌáÉıÎäÆ÷¹¥»÷Á¦/×°±¸µÈ¼¶, ¡ìeÌáÉı15%µÄÇ¿»¯¼¸ÂÊ, [¡ì6¡ìlÓÃ·¨], ¡ì2·Åµ½ÈÛÂ¯£¬È¼ÉÕÎäÆ÷/×°±¸]}}
+[13:06:11] [Server thread/INFO]: [Weaponplugin] 66
+[13:06:11] [Server thread/INFO]: [Weaponplugin] ItemStack{AIR x 0}
+[13:06:19] [Server thread/INFO]: [Weaponplugin] 66
+[13:06:19] [Server thread/INFO]: [Weaponplugin] ItemStack{EMERALD x 1, UNSPECIFIC_META:{meta-type=UNSPECIFIC, display-name=¡ìeÆÕÍ¨Ç¿»¯Ê¯, lore=[[¡ì6¡ìl¹¦ÄÜ], ¡ì2ÌáÉıÎäÆ÷¹¥»÷Á¦/×°±¸µÈ¼¶, ¡ìeÌáÉı15%µÄÇ¿»¯¼¸ÂÊ, [¡ì6¡ìlÓÃ·¨], ¡ì2·Åµ½ÈÛÂ¯£¬È¼ÉÕÎäÆ÷/×°±¸]}}
+[13:06:19] [Server thread/INFO]: [Weaponplugin] 66
+[13:06:19] [Server thread/INFO]: [Weaponplugin] ItemStack{AIR x 0}
+[13:06:25] [Server thread/INFO]: [Weaponplugin] 64
+[13:06:25] [Server thread/INFO]: [Weaponplugin] ItemStack{EMERALD x 1, UNSPECIFIC_META:{meta-type=UNSPECIFIC, display-name=¡ìeÆÕÍ¨Ç¿»¯Ê¯, lore=[[¡ì6¡ìl¹¦ÄÜ], ¡ì2ÌáÉıÎäÆ÷¹¥»÷Á¦/×°±¸µÈ¼¶, ¡ìeÌáÉı15%µÄÇ¿»¯¼¸ÂÊ, [¡ì6¡ìlÓÃ·¨], ¡ì2·Åµ½ÈÛÂ¯£¬È¼ÉÕÎäÆ÷/×°±¸]}}
+[13:06:27] [Server thread/INFO]: [Weaponplugin] 56
+[13:06:27] [Server thread/INFO]: [Weaponplugin] ItemStack{AIR x 0}
+[13:57:37] [Server thread/INFO]: [Weaponplugin] 66
+[13:57:37] [Server thread/INFO]: [Weaponplugin] ItemStack{EMERALD x 1, UNSPECIFIC_META:{meta-type=UNSPECIFIC, display-name=¡ìeÆÕÍ¨Ç¿»¯Ê¯, lore=[[¡ì6¡ìl¹¦ÄÜ], ¡ì2ÌáÉıÎäÆ÷¹¥»÷Á¦/×°±¸µÈ¼¶, ¡ìeÌáÉı15%µÄÇ¿»¯¼¸ÂÊ, [¡ì6¡ìlÓÃ·¨], ¡ì2·Åµ½ÈÛÂ¯£¬È¼ÉÕÎäÆ÷/×°±¸]}}
+[13:57:37] [Server thread/INFO]: [Weaponplugin] 66
+[13:57:37] [Server thread/INFO]: [Weaponplugin] ItemStack{AIR x 0}
+[13:57:37] [Server thread/INFO]: [Weaponplugin] 66
+[13:57:37] [Server thread/INFO]: [Weaponplugin] ItemStack{EMERALD x 1, UNSPECIFIC_META:{meta-type=UNSPECIFIC, display-name=¡ìeÆÕÍ¨Ç¿»¯Ê¯, lore=[[¡ì6¡ìl¹¦ÄÜ], ¡ì2ÌáÉıÎäÆ÷¹¥»÷Á¦/×°±¸µÈ¼¶, ¡ìeÌáÉı15%µÄÇ¿»¯¼¸ÂÊ, [¡ì6¡ìlÓÃ·¨], ¡ì2·Åµ½ÈÛÂ¯£¬È¼ÉÕÎäÆ÷/×°±¸]}}
+[13:57:38] [Server thread/INFO]: [Weaponplugin] 66
+[13:57:38] [Server thread/INFO]: [Weaponplugin] ItemStack{AIR x 0}
+[13:57:38] [Server thread/INFO]: [Weaponplugin] 66
+[13:57:38] [Server thread/INFO]: [Weaponplugin] ItemStack{AIR x 0}
+[13:57:38] [Server thread/INFO]: [Weaponplugin] 66
+[13:57:38] [Server thread/INFO]: [Weaponplugin] ItemStack{EMERALD x 2, UNSPECIFIC_META:{meta-type=UNSPECIFIC, display-name=¡ìeÆÕÍ¨Ç¿»¯Ê¯, lore=[[¡ì6¡ìl¹¦ÄÜ], ¡ì2ÌáÉıÎäÆ÷¹¥»÷Á¦/×°±¸µÈ¼¶, ¡ìeÌáÉı15%µÄÇ¿»¯¼¸ÂÊ, [¡ì6¡ìlÓÃ·¨], ¡ì2·Åµ½ÈÛÂ¯£¬È¼ÉÕÎäÆ÷/×°±¸]}}
+[13:57:38] [Server thread/INFO]: [Weaponplugin] 66
+[13:57:38] [Server thread/INFO]: [Weaponplugin] ItemStack{AIR x 0}
+[13:57:38] [Server thread/INFO]: [Weaponplugin] 66
+[13:57:38] [Server thread/INFO]: [Weaponplugin] ItemStack{AIR x 0}
+[13:57:38] [Server thread/INFO]: [Weaponplugin] 66
+[13:57:38] [Server thread/INFO]: [Weaponplugin] ItemStack{EMERALD x 2, UNSPECIFIC_META:{meta-type=UNSPECIFIC, display-name=¡ìeÆÕÍ¨Ç¿»¯Ê¯, lore=[[¡ì6¡ìl¹¦ÄÜ], ¡ì2ÌáÉıÎäÆ÷¹¥»÷Á¦/×°±¸µÈ¼¶, ¡ìeÌáÉı15%µÄÇ¿»¯¼¸ÂÊ, [¡ì6¡ìlÓÃ·¨], ¡ì2·Åµ½ÈÛÂ¯£¬È¼ÉÕÎäÆ÷/×°±¸]}}
+[13:57:39] [Server thread/INFO]: [Weaponplugin] 66
+[13:57:39] [Server thread/INFO]: [Weaponplugin] ItemStack{AIR x 0}
+[13:57:39] [Server thread/INFO]: [Weaponplugin] 66
+[13:57:39] [Server thread/INFO]: [Weaponplugin] ItemStack{AIR x 0}
+[13:57:39] [Server thread/INFO]: [Weaponplugin] 66
+[13:57:39] [Server thread/INFO]: [Weaponplugin] ItemStack{EMERALD x 2, UNSPECIFIC_META:{meta-type=UNSPECIFIC, display-name=¡ìeÆÕÍ¨Ç¿»¯Ê¯, lore=[[¡ì6¡ìl¹¦ÄÜ], ¡ì2ÌáÉıÎäÆ÷¹¥»÷Á¦/×°±¸µÈ¼¶, ¡ìeÌáÉı15%µÄÇ¿»¯¼¸ÂÊ, [¡ì6¡ìlÓÃ·¨], ¡ì2·Åµ½ÈÛÂ¯£¬È¼ÉÕÎäÆ÷/×°±¸]}}
+[13:57:39] [Server thread/INFO]: [Weaponplugin] 66
+[13:57:39] [Server thread/INFO]: [Weaponplugin] ItemStack{AIR x 0}
+[13:57:41] [Server thread/INFO]: [Weaponplugin] 32
+[13:57:41] [Server thread/INFO]: [Weaponplugin] ItemStack{AIR x 0}
+[13:57:43] [Server thread/INFO]: [Weaponplugin] 49
+[13:57:43] [Server thread/INFO]: [Weaponplugin] ItemStack{DIAMOND x 1, UNSPECIFIC_META:{meta-type=UNSPECIFIC, display-name=¡ì4Ç¿»¯}}
+[14:01:11] [Server thread/INFO]: _b issued server command: /smelter get
+[14:01:28] [Server thread/INFO]: _b issued server command: /enhance normal
+[14:01:34] [Server thread/INFO]: _b issued server command: /enhance vip
+[14:01:36] [Server thread/INFO]: _b issued server command: /enhance normal
+[14:01:38] [Server thread/INFO]: _b issued server command: /enhance normal
+[14:01:39] [Server thread/INFO]: _b issued server command: /enhance vip
+[14:01:41] [Server thread/INFO]: _b issued server command: /enhance normal
+[14:01:41] [Server thread/INFO]: _b issued server command: /enhance normal
+[14:01:42] [Server thread/INFO]: _b issued server command: /enhance normal
+[14:01:43] [Server thread/INFO]: _b issued server command: /enhance normal
+[14:01:44] [Server thread/INFO]: _b issued server command: /enhance normal
+[14:05:00] [Server thread/INFO]: _b issued server command: /time set 20
+[14:07:07] [Server thread/INFO]: _b issued server command: /smelter get
+[14:08:34] [Server thread/INFO]: [Weaponplugin] 49
+[14:08:34] [Server thread/INFO]: [Weaponplugin] ItemStack{DIAMOND x 1, UNSPECIFIC_META:{meta-type=UNSPECIFIC, display-name=¡ì4Ç¿»¯}}
+[14:09:01] [Server thread/INFO]: _b issued server command: /smelter get
+[14:09:02] [Server thread/INFO]: [Weaponplugin] 81
+[14:09:02] [Server thread/INFO]: [Weaponplugin] ItemStack{EMERALD x 8, UNSPECIFIC_META:{meta-type=UNSPECIFIC, display-name=¡ìeÆÕÍ¨Ç¿»¯Ê¯, lore=[[¡ì6¡ìl¹¦ÄÜ], ¡ì2ÌáÉıÎäÆ÷¹¥»÷Á¦/×°±¸µÈ¼¶, ¡ìeÌáÉı15%µÄÇ¿»¯¼¸ÂÊ, [¡ì6¡ìlÓÃ·¨], ¡ì2·Åµ½ÈÛÂ¯£¬È¼ÉÕÎäÆ÷/×°±¸]}}
+[14:09:03] [Server thread/INFO]: [Weaponplugin] 31
+[14:09:03] [Server thread/INFO]: [Weaponplugin] ItemStack{AIR x 0}
+[14:09:04] [Server thread/INFO]: [Weaponplugin] 49
+[14:09:04] [Server thread/INFO]: [Weaponplugin] ItemStack{DIAMOND x 1, UNSPECIFIC_META:{meta-type=UNSPECIFIC, display-name=¡ì4Ç¿»¯}}
+[14:09:09] [Server thread/INFO]: _b issued server command: /smelter get

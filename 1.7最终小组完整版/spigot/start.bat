@@ -1,0 +1,1 @@
+java -Xmx2000M -Xms1000M -jar spigot-1.12.2.jar
